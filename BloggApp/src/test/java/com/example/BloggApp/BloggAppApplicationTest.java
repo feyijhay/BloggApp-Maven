@@ -15,7 +15,6 @@ public class BloggAppApplicationTest {
 @Autowired
     private UsersRepository usersRepository;
 
-
     @Test
     public void saveTest(){
         User user = new User();
